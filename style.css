@@ -215,7 +215,7 @@ h3{
   position: fixed;
   width: 200%;
   height: 100%;
-  background: linear-gradient(to right bottom, #5d1332);
+  background-color: black;
   left: 30%;
   top: 30%;
   transform: translateX(-50%) skew(0, -10deg);
