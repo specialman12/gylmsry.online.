@@ -206,33 +206,7 @@ h3{
   animation-duration:3s; 
 }
 
-.page {
-  height: 1vh;
-}
 
-.page::before {
-  content: "";
-  position: fixed;
-  width: 200%;
-  height: 100%;
-  
-  left: 30%;
-  top: 30%;
-  transform: translateX(-50%) skew(0, -10deg);
-  border-radius: 50%;
-  z-index: -1;
-  animation: waving 5s ease-in-out infinite alternate;
-}
-
-
-@keyframes waving {
-  from {
-    transform: translateX(-50%) skew(0, -10deg);
-  }
-  to {
-    transform: translateX(-30%) skew(10deg, 0);
-  }
-}
 
 .stlo{
   border: 1px solid #0000ff;
