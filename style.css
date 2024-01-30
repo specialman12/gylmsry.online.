@@ -206,7 +206,7 @@ h3{
   animation-duration:3s; 
 }
 
-.page {
+/*.page {
   height: 1vh;
 }
 
@@ -223,7 +223,7 @@ h3{
   z-index: -1;
   animation: waving 5s ease-in-out infinite alternate;
 }
-
+*/
 
 
 @keyframes waving {
