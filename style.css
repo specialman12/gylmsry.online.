@@ -206,7 +206,7 @@ h3{
   animation-duration:3s; 
 }
 
-/*.page {
+.page {
   height: 1vh;
 }
 
@@ -215,7 +215,7 @@ h3{
   position: fixed;
   width: 200%;
   height: 100%;
-  background-color: black;
+  
   left: 30%;
   top: 30%;
   transform: translateX(-50%) skew(0, -10deg);
@@ -223,7 +223,6 @@ h3{
   z-index: -1;
   animation: waving 5s ease-in-out infinite alternate;
 }
-*/
 
 
 @keyframes waving {
