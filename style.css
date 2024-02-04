@@ -323,14 +323,14 @@ ins.adsbygoogle[data-ad-status="unfilled"] {
 }
 
 google{
-  border: 1px solid #ccc;
+  border: 1px solid purple;
             border-radius: 20px;
             padding: 20px;
             margin: 20px;
             display: inline-block;
             width: 200px;
             vertical-align: top;
-          background-color: black;
+          background-color: purple;
           object-fit: cover;
     object-position: center;
   box-shadow: 0 0 20px red;
