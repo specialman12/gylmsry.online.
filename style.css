@@ -35,7 +35,8 @@ body {
     margin: 0;
     padding: 0;
   font-family: 'Alexandria', sans-serif;
-  background: linear-gradient(to bottom, #6f730f, #2e03bd);
+  background: linear-gradient(to bottom, #000000, #235892);
+          
 }
 
 footer {
@@ -58,7 +59,6 @@ background: linear-gradient(to right top, #52425ACF, #52425AF5);
     margin: 0 10px;
     background-size: cover;
 }
-
 .facebook {
     background-image: url('facebook-icon.png');
   background-size: cover;
