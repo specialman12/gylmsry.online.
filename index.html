@@ -262,11 +262,23 @@
 <!--<chat-bot platform_id="2cd9fdd8-a03c-4cd1-8d3e-29e6a92295c8" user_id="e6691c51-e082-4ff6-9727-7c085942bec8" chatbot_id="d504fbe7-750a-45da-a545-cd84a64c8d81"><a href="https://www.chatsimple.ai/?utm_source=widget&utm_medium=referral">chatsimple</a></chat-bot><script src="https://cdn.chatsimple.ai/chat-bot-loader.js" defer></script>
 -->
 
-<script SameSite="None; Secure" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
 <script>
-  var myLandbot = new Landbot.Livechat({
-    configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2143363-XG6VLXXU6TLUYV5J/index.json',
-  });
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
+var myLandbot;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+    s.addEventListener('load', function() {
+      var myLandbot = new Landbot.Livechat({
+        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2143363-XG6VLXXU6TLUYV5J/index.json',
+      });
+    });
+    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
+}
 </script>
 
   <script>
